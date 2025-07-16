@@ -1,0 +1,49 @@
+/* /home/nilxxxop/mysite/core/static/core/css/estilo_pesquisa.css */
+
+.pesquisa-secao {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente o conteúdo */
+    align-items: center;     /* Centraliza verticalmente (se a altura for definida) */
+    padding: 20px 0;         /* Espaçamento acima e abaixo */
+    width: 100%;
+}
+
+.barra-pesquisa-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 25px; /* Bordas arredondadas */
+    overflow: hidden;    /* Para que a borda arredondada afete o conteúdo */
+    width: 80%;          /* Largura da barra de pesquisa */
+    max-width: 500px;    /* Largura máxima para telas maiores */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra suave */
+}
+
+.form-pesquisa {
+    display: flex;
+    width: 100%;
+}
+
+.input-pesquisa {
+    flex-grow: 1; /* Faz o input ocupar o máximo de espaço possível */
+    border: none;
+    padding: 10px 15px;
+    font-size: 1em;
+    outline: none; /* Remove a borda de foco padrão */
+}
+
+.botao-pesquisa {
+    background-color: transparent; /* Fundo transparente */
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    display: flex; /* Para centralizar a imagem da lupa */
+    align-items: center;
+    justify-content: center;
+}
+
+.icone-pesquisa {
+    width: 24px; /* Tamanho da lupa */
+    height: 24px;
+    vertical-align: middle; /* Alinhamento vertical da imagem */
+}
